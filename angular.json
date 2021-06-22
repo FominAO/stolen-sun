@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "stolen-sun"
+  "defaultProject": "stolen-sun",
+  "cli": {
+    "analytics": "20af8047-cada-4aa5-85fa-fa8a4c42cf86"
+  }
 }

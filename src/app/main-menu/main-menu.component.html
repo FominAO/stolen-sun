@@ -1,0 +1,11 @@
+<div class="right-content">
+<div class="header">
+    <img src="/assets/icons/logo.png" alt="" class="header__logo">
+</div>
+<div class="menu">
+    <div class="menu__item" *ngFor="let item of menuItems" [routerLink]="['/', 'main-menu', item.path]" routerLinkActive="active" >{{item.label}}</div>
+</div>
+</div>
+<div class="left-content">
+    <img src="/assets/images/girl.png">
+</div>
