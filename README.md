@@ -1,6 +1,6 @@
 # StolenSun
 
-DEMO: https://fominao.github.io/stolen-sun/main-menu
+DEMO: https://fominao.github.io/stolen-sun
 
 ## Development server
 
