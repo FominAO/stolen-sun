@@ -21,13 +21,13 @@
     &__item {
         transition: font-size 100ms;
         margin: 12px 0;
-        cursor:  url('https://fominao.github.io/stolen-sun/assets/icons/cursor_active.png'), pointer;
+        cursor:  url('assets/icons/cursor_active.png'), pointer;
         display: flex;
         &::before {
             // transition: opacity 300ms;
             opacity: 0;
             content: ' ';
-            background-image: url('https://fominao.github.io/stolen-sun/assets/icons/sun.png');
+            background-image: url('assets/icons/sun.png');
             width: 50px;
             height: 50px;
             background-size: contain;
