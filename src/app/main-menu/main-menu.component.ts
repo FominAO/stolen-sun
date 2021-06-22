@@ -33,4 +33,9 @@ export class MainMenuComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onNewGameClick(audio: HTMLAudioElement) {
+    audio.volume = 0.1;
+    audio.play();
+  }
+
 }
