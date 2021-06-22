@@ -1,13 +1,13 @@
 <div class="right-content">
 <div class="header">
-    <img src="assets/icons/logo.png" alt="" class="header__logo">
+    <img src="/assets/icons/logo.png" alt="" class="header__logo">
 </div>
 <div class="menu">
     <div class="menu__item" *ngFor="let item of menuItems" [routerLink]="['/', 'main-menu', item.path]" routerLinkActive="active" >{{item.label}}</div>
 </div>
 </div>
 <div class="left-content">
-    <video loop autoplay src="assets/images/girl.webm"  (click)="onNewGameClick(sound)"></video>
-    <!-- <img src="assets/images/girl.png"> -->
-    <audio #sound loop src="assets/sounds/main.m4a"></audio>
+    <video loop autoplay src="/assets/images/girl.webm"  (click)="onNewGameClick(sound)"></video>
+    <!-- <img src="/assets/images/girl.png"> -->
+    <audio #sound loop src="/assets/sounds/main.m4a"></audio>
 </div>
